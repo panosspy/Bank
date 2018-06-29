@@ -1,0 +1,255 @@
+body {
+    background-color:#22383a;
+    font-size:10pt;
+    font-family:Arial;
+    margin:0;
+    padding:0;
+    color:#FFFFFF;
+}
+
+#page {
+    width:900px;
+    background-image:url(images/page.png);
+    margin:auto;
+    padding:auto;
+}
+
+#header {
+    clear:both;
+    width:850px;
+    height:120px;
+    background-image:url(images/header.png);
+    padding-top:73px;
+    padding-left:50px;
+}
+
+#menulinks {
+    clear:both;
+    width:877px;
+    height:53px;
+    padding-left:23px;
+    background-image:url(images/menulinks.png);
+}
+
+#menulinks a {
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:15px;
+    height:38px;
+    background-image:none;
+    display:block;
+    color:#FFFFFF;
+    text-decoration:none;
+    float:left;
+    font-size:14px;
+    font-weight:bold;
+    margin-right:3px;	
+}
+
+#menulinks a:hover, #menulinks a.active {
+    background-image:url(images/menuhover.png);
+    background-position:top left;
+    text-decoration:none;
+    color:#FFFFFF;
+}
+
+#mainarea {
+    width:860px;
+    clear:both;
+    padding-left:40px;
+}
+
+#contentarea {
+    width:525px;
+    padding-right:30px;
+    float:left;
+    line-height:14pt;
+    padding-bottom:10px;
+}
+
+#sidebar {
+    float:left;
+    width:255px;
+    line-height:14pt;
+}
+
+#footer {
+    width:900px;
+    clear:both;
+    height:32px;
+    padding-top:20px;
+    text-align:center;
+    line-height:14pt;
+    background-image:url(images/footer.png);
+    background-repeat:no-repeat;
+    color:#FFFFFF;
+}
+
+#footer a {
+    color:#FFFFFF;
+}
+
+h1 {
+    font-size:30pt;
+    color:#FFFFFF;
+    margin:0;
+}
+
+h1 a {
+    color:#FFFFFF;
+}
+
+h2 {
+    font-size:12pt;
+    color:#FFFFCC;
+    padding-top:6px;
+}
+
+.description {
+    font-size:14pt;
+    color:#FFFFCC;
+    margin:0;
+    padding-left:10px;
+}
+
+a {
+    color:#FFFFCC;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+#stylized  textarea {
+    padding: 5px;
+    width: 401px;
+    font-size: 1.4em;
+    margin: 0px 0px 10px 0px;
+    border: 2px solid #ccc;
+    resize: none;
+    color: #000 ;
+}
+
+#stylized textarea {
+    height: 90px;
+}
+
+.myform{
+    margin:0 auto;
+    width:400px;
+    padding:14px;
+}
+
+/* ----------- stylized ----------- */
+#stylized{
+
+    border:solid 2px #A0A0A4;
+    background: #000;
+    -webkit-border-radius: 12px;
+    border-radius: 12px; 
+}
+#stylized h1 {
+    font-size:14px;
+    font-weight:bold;
+    margin-bottom:8px;
+}
+#stylized p{
+    font-size:14px;
+    color:#F0F8FF;
+    margin-bottom:20px;
+    border-bottom:solid 1px #F0F8FF;
+    padding-bottom:10px;
+}
+#stylized label{
+    display:block;
+    font-weight:bold;
+    text-align:right;
+    width:140px;
+
+}
+#stylized .small{
+    color:#666666;
+    display:block;
+    font-size:11px;
+    font-weight:normal;
+    text-align:right;
+    width:140px;
+}
+#stylized input{
+    float:left;
+    font-size:12px;
+    padding:4px 2px;
+    border:solid 1px #aacfe4;
+    width:200px;
+    margin:2px 0 20px 10px;
+}
+#stylized button{
+    clear:both;
+    margin-left:150px;
+    width:125px;
+    height:31px;
+    background:#6F6F6F;
+    text-align:center;
+    line-height:31px;
+    color: #000;
+    font-size:11px;
+    font-weight:bold;
+}
+
+table.selectable-table td {  font-size:10pt; font-family: Arial;   }
+table.selectable-table td {  cursor:pointer;  margin:0px; border:0px; padding:2px 5px 2px 5px;   }
+table.selectable-table  {  border-spacing:0px;  background:#eef;}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    overflow: hidden;
+    z-index: 1;
+}
+#hi
+{
+    display: none;
+}
+.myerror
+{
+    margin: 5px auto;
+    background:#FFDFDF;
+    border: 1px #FF0000 solid;
+    padding:5px;
+    color:#FF0000;
+    font-size:12px;
+    width:400px;
+    min-height:0px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    text-align: center;
+}
+
+.myinfo
+{
+    margin: 5px auto;
+    background:#d6e3f5;
+    border: 1px #0010ac solid;
+    padding:5px;
+    color:#0010ac;
+    font-size:12px;
+    width:400px;
+    min-height:0px;
+    text-align: center;
+}
+
+#stylized label{
+    display:block;
+    font-weight:bold;
+    text-align:right;
+    width:140px;
+    float:left;
+}
+#stylized .small{
+    color:#666666;
+    display:block;
+    font-size:11px;
+    font-weight:normal;
+    text-align:right;
+    width:140px;
+}
+.spacer{clear:both; height:1px;}
